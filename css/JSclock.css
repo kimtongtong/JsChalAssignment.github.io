@@ -1,0 +1,17 @@
+#clock-box {
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+
+#clock {
+    font-size: 5vw;
+    /* font-family: 'Teko', sans-serif; */
+    color: white;
+    text-align: center;
+    letter-spacing: 5px;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+
+}

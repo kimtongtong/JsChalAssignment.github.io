@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div id="weather">
+    <span></span>
+    <span></span>
+  </div>
+
+  <div id="container1">
+    
+    <div id="clock-box">
+    <h1 id="clock">00:00:00</h1> <!--시계 구현-->
+  </div>
+    
+  <div id="hello-container">
+    <div id="hello-master"></div>
+
+    <!--localstorage login-->
+    <form class="hidden"id="login-form">
+        <input class="login-write "type="text" required placeholder="Write you name! developer" maxlength="15"><br>
+        <input class="login-btn" type="submit" value="activate">
+    </form>
+     <!--localstorage login-->
+
+    
+  </div>
+
+    <!-- todolist form -->
+    <form id="todo-form">
+      <input type="text" placeholder="Write your todo-list and Press Enter" required maxlength="15">
+    </form>
+    <ul id="todo-list"></ul>
+    <!-- todolist form -->
+
+    <!-- quote form -->
+    
+    <div id="quote-form">
+      <span></span>
+      <span></sp>
+    </div>
+  </div>
+  <div id="link-form">
+  <a href="http://www.google.com" target="_self"><img src="https://cdn.icon-icons.com/icons2/2642/PNG/512/google_logo_g_logo_icon_159348.png" alt="" width="50" height="50"></a>
+  <a href="http://www.naver.com" target="_self"><img src="https://play-lh.googleusercontent.com/Kbu0747Cx3rpzHcSbtM1zDriGFG74zVbtkPmVnOKpmLCS59l7IuKD5M3MKbaq_nEaZM" alt="" width="50" height="50"></a>
+  <a href="https://nomadcoders.co/?utm_source=naver&utm_medium=search&utm_campaign=brand_keyword" target="_self"><img src="https://yt3.ggpht.com/ytc/AKedOLTUh5DI9RQkZcNRxzVqXMfyO2jB99F1k49ttgFbrA=s900-c-k-c0x00ffffff-no-rj" alt="" width="50" height="50"></a>
+</div>
+ 
+  
+
+
+    <script src="src/greeting.js"></script>
+    <script src="src/clock.js"></script>
+    <script src="src/background.js"></script>
+    <script src="src/quote.js"></script>
+    <script src="src/todo.js"></script>
+    <script src="src/weather.js"></script>
+
+</body>
+</html>

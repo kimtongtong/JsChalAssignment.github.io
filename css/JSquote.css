@@ -1,0 +1,22 @@
+#quote-form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 60px;
+    width: 40%;
+    font-weight: bold;
+}
+
+
+#quote-form span:first-child {
+    font-size: 20px;
+    margin-bottom: 10px;
+    transition: all 1s ease-in;
+}
+#quote-form span:last-child {
+    font-size: 15px;
+    transition: all 1s ease-in;
+}

@@ -1,0 +1,57 @@
+#hello-master{
+    display: flex;
+    text-transform: uppercase;
+}
+
+.login-write {
+    width: 25vw;
+    height: 5vh;
+    margin-bottom: 2%;
+    background: none;
+    color: white;
+    border-style: none;
+    border-bottom: solid 1px white;
+    font-size: 20px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+.login-write::placeholder {
+    color: white;
+    text-align: center;
+}
+.login-write:focus {
+    background: rgba(255,255,255, 0.25);
+}
+.login-btn {
+    width: 25.5vw;
+    height: 5vh;
+    margin-bottom: 2%;
+    color: white;
+    background: none;
+    border: solid 1px white;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+.login-btn:hover {
+    background-color: rgba(255,255,255, 0.5);
+    color: black;
+}
+
+
+#hello-container {
+    display: flex;
+    justify-content: center;
+    animation: scaleUP 1s steps(3);
+    font-size: 80px;
+    font-family: 'TEKO';
+}
+
+@keyframes scaleUP {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1.0)
+    }
+}

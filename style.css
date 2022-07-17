@@ -1,0 +1,42 @@
+@import url("css/reset.css");
+
+@import url("css/JSclock.css");
+@import url("css/JSgreeting.css");
+@import url("css/background.css");
+@import url("css/JSquote.css");
+@import url("css/JStodo.css");
+@import url("css/JSweather.css");
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Teko&display=swap');
+
+
+
+
+.hidden {
+    display: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#container1 {
+    /* display: flex; */
+    width: 40%;
+    height: 90%;
+    border: solid 2px white;
+}
+
+#link-form {
+    position: absolute;
+    left: 45;
+    bottom: 120px;
+}
+#link-form a img:nth-child(1), 
+#link-form a img:nth-child(2), 
+#link-form a img:nth-child(3) {
+    border-radius: 50%;
+}
